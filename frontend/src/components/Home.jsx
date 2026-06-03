@@ -22,10 +22,18 @@ const Home = () => {
             and seamless user experience.
           </p>
           <div className='flex gap-5 mt-10'>
-            <button className='bg-cyan-400 text-black px-8 py-3 rounded-xl font-semibold hover:scale-105 transition-all duration-300'>
+            <button onClick={()=>{
+              document.getElementById('projects').scrollIntoView({
+              behavior: 'smooth'
+              })
+            }} className='bg-cyan-400 text-black px-8 py-3 rounded-xl font-semibold hover:scale-105 transition-all duration-300'>
               View Projects
             </button>
-            <button className='border border-slate-700 px-8 py-3 rounded-xl hover:border-cyan-400 hover:text-cyan-400 transition-all duration-300'>
+            <button onClick={()=>{
+              document.getElementById('contact').scrollIntoView({
+              behavior: 'smooth'
+              })
+            }} className='border border-slate-700 px-8 py-3 rounded-xl hover:border-cyan-400 hover:text-cyan-400 transition-all duration-300'>
               Contact Me
             </button>
           </div>
