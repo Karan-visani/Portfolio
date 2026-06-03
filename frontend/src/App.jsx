@@ -9,7 +9,7 @@ import Contact from './components/Contact'
 
 const App = () => {
   return (
-    <div id='appScroll' className=' from-slate-950 via-[#020617] to-black min-h-full h-full w-screen flex flex-col'>
+    <div id='appScroll' className=' from-slate-950 via-[#020617] to-black min-h-full h-full w-screen flex flex-col pt-15'>
       <Navbar/>
       <Home/>
       <About/>
