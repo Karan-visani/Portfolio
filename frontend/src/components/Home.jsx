@@ -49,7 +49,7 @@ const Home = () => {
 
           <img
             src="https://i.pinimg.com/736x/cf/ce/66/cfce660dfa6642650cf6481dd1f2b0ba.jpg"
-            className='w-full max-w-[640px] h-[350px] md:h-[500px] object-fil rounded-2xl border border-slate-700 shadow-2xl shadow-cyan-500/10'
+            className='w-full max-w-[640px] h-[350px] md:h-[500px] object-fill rounded-2xl border border-slate-700 shadow-2xl shadow-cyan-500/10'
           />
 
         </div>

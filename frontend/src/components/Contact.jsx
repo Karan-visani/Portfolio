@@ -41,7 +41,7 @@ const Contact = () => {
                 </h2>
 
                 <p className='text-slate-400 text-sm md:text-lg mt-1 break-all'>
-                  karanvisani@example.com
+                  karanvisani719@gmail.com
                 </p>
               </div>
 
