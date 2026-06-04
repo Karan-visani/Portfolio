@@ -15,7 +15,7 @@ const About = () => {
                 </p>
 
                 <h2 className='text-4xl md:text-6xl lg:text-7xl font-semibold leading-tight'>
-                    Got to know me <span className='text-cyan-400'>better</span>
+                    Get to know me <span className='text-cyan-400'>better</span>
                 </h2>
 
                 <h1 className='text-lg md:text-xl font-medium text-zinc-400 mt-8 leading-8'>
