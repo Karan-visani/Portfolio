@@ -1,4 +1,4 @@
-import { GraduationCap,Lightbulb,Rocket,Zap } from 'lucide-react'
+import {GraduationCap,Lightbulb,Rocket,Zap} from 'lucide-react'
 import React from 'react'
 import karanImage from '../assets/karanimage.png'
 
@@ -71,15 +71,11 @@ const About = () => {
                             </p>
                         </div>
                     </div>
-
                 </div>
-
             </div>
 
             <div className='flex-1 flex justify-center items-center p-2 md:p-6 lg:p-10 relative w-full'>
-
                 <img src={karanImage} alt="Karan Visani" className='w-full max-w-[550px] h-[500px] md:h-[650px] object-cover rounded-3xl border border-cyan-400/30 shadow-2xl shadow-cyan-500/10'/>
-
                 <div className='absolute left-1/2 -translate-x-1/2 lg:left-16 lg:translate-x-0 bottom-6 md:bottom-10 flex bg-slate-900/95 p-3 md:p-4 justify-center items-center gap-4 border border-slate-700 rounded-2xl w-[85%] md:w-auto backdrop-blur-md'>
 
                     <h2 className='border border-cyan-400/30 p-3 rounded-xl bg-slate-800'>
